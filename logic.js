@@ -1,7 +1,7 @@
 function getprod(data) {
     var items = [];
     $.each(data.buttons, function(key, val) {
-      items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
+      items.push("<a [btn] href='"+val.link+"'>" + val.title + "</a>");
     });
     var tb = items.join("");
     console.log(tb);
