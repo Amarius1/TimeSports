@@ -3,8 +3,7 @@ function getprod(data) {
     $.each(data.buttons, function(key, val) {
       items.push("<a btn href='"+val.link+"'>" + val.title + "</a>");
     });
-    var tb = items.join("");
-    $("#ButtonList").append(tb);
+    $("#ButtonList").append(items.join(""));
     
   }
 
