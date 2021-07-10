@@ -4,8 +4,8 @@ function getprod(data) {
       items.push("<a btn href='"+val.link+"'>" + val.title + "</a>");
     });
     var tb = items.join("");
-    console.log(tb);
     $("#ButtonList").append(tb);
+    
   }
 
   $.getJSON('products.json',  getprod(data));
