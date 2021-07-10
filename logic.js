@@ -12,4 +12,4 @@ function getprod(data) {
   }
 
 
-  fetch('products.json').then (response => response.json()).then(data => getprod(data))
+  fetch('products.json').then(response => response.json()).then(data => getprod(data))
