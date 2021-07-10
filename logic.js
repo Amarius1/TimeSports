@@ -1,14 +1,15 @@
 function getprod(data) {
     var items = [];
-    data.products.forEach(function(key, val) {
+    data.products.buttons.forEach(function(key, val) {
       items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
     });
     var tb = items.join("");
     console.log(tb);
-    $("#ButtonList").append(tb);
+    document.getElementById("ButtonList").appendChild(tb)
 
 
     
   }
 
-  $.getJSON('products.json',  getprod(data));
+
+  fetch('products.json').then (response => response.json()).then(data => getprod(data))
