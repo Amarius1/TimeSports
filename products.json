@@ -1,6 +1,9 @@
 var data = {
     "buttons": [
         {
+        "description": "Timesport.cc - 24/7 Live Channels HD ",
+        },
+        {
         "id": "0",
         "title": "BT Sport 1 HD",
         "link": "sample1",
@@ -9,16 +12,16 @@ var data = {
         "id": "1",
         "title": "BT Sport 2 HD",
         "link": "sample2",
-        },
+        }
         {
         "id": "2",
         "title": "BT Sport 2 HD",
         "link": "sample3",
         }
     ],
-    "schedule": [
+    "buttons2": [
         {
-          "scheduletitle": "Saturday 10 July 2021 - 14:00 Tennis (Wimbledon Grand Slam Women's FINAL) : Ashleigh Barty vs Aryna Sabalenka, FINAL Women's"
+          "description": "Timesport.cc - Live Events Channels HD",
         },
         {
           "id": "0",
