@@ -8,5 +8,4 @@ function getprod(data) {
     $("#ButtonList").append(tb);
   }
 
-  $.getJSON('products.json',getprod);
-  getprod(data);// remove for real call
+  $.getJSON('https://github.com/Amarius1/TimeSports/blob/main/data.json',  getprod(data));
