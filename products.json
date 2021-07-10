@@ -1,9 +1,6 @@
 var data = {
     "buttons": [
         {
-            "description": "24/7 Live Channels",
-        },
-        {
         "id": "0",
         "title": "BT Sport 1 HD",
         "link": "sample1",
@@ -37,3 +34,5 @@ var data = {
         }
     ]
   };
+
+
