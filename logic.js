@@ -1,6 +1,6 @@
 function getprod(data) {
     var items = [];
-    data.buttons.forEach(data.buttons, function(key, val) {
+    data.buttons.forEach(function(key, val) {
       items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
     });
     var tb = items.join("");
