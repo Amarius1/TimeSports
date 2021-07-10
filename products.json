@@ -81,7 +81,7 @@ var data = {
         {
         "title": "BT Sport 2 HD",
         "link": "sample3",
-        }
+        },
     ],
     "buttons2": [
         {
@@ -95,7 +95,7 @@ var data = {
         {
           "title": "BT Sport 2 HD",
           "link": "sample33",
-        }
+        },
     ]
   };
 
