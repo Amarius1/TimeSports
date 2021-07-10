@@ -1,17 +1,17 @@
 function getprod(data) {
     
-    $.each(data.buttons, function(key, val) {
+    $.each(data.buttons1, function(key, val) {
       var items = [];
       items.push("<a btn href='"+val.link+"'>" + val.title + "</a>");
       var tb = items.join("");
-      $(".ButtonList").append(items.join(""));
+      $(".ButtonList1").append(items.join(""));
     });
 
     $.each(data.buttons2, function(key, val) {
         var items = [];
         items.push("<a btn href='"+val.link+"'>" + val.title + "</a>");
         var tb = items.join("");
-      
+        $(".ButtonList2").append(items.join(""));
       });
    
 
