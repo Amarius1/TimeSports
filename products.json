@@ -1,9 +1,6 @@
 var data = {
     "buttons": [
         {
-        "description": "Timesport.cc - 24/7 Live Channels HD ",
-        },
-        {
         "id": "0",
         "title": "BT Sport 1 HD",
         "link": "sample1",
@@ -20,9 +17,6 @@ var data = {
         }
     ],
     "buttons2": [
-        {
-          "description": "Timesport.cc - Live Events Channels HD",
-        },
         {
           "id": "0",
           "title": "BT Sport 1 HD",
