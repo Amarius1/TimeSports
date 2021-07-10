@@ -1,8 +1,15 @@
 function getprod(data) {
     var items = [];
-    data.buttons.forEach(function(key, val) {
-      items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
-    });
+    //$.each(data.buttons, function(key, val) {
+    //  items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
+    //});
+
+    data.buttons.forEach(buttonGen);
+    function buttonGen(key, val) {
+        items.push("<a class='btn' href='"+val.link+"'>" + val.title + "</a>");
+    };
+
+
     var tb = items.join("");
     console.log(tb);
     $("#ButtonList").append(tb);
