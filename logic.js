@@ -6,9 +6,6 @@ function getprod(data) {
     var tb = items.join("");
     console.log(tb);
     $("#ButtonList").append(tb);
-
-
-    
   }
 
   $.getJSON('products.json',  getprod(data));
