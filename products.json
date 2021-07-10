@@ -72,29 +72,49 @@ var data = {
     "buttons1": [
         {
         "title": "BT Sport 1 HD",
-        "link": "sample1",
+        "link": "http://timesports.cc/ch31.html",
         }, 
         {
         "title": "BT Sport 2 HD",
-        "link": "sample2",
+        "link": "http://timesports.cc/ch32.html",
         },
         {
         "title": "BT Sport 2 HD",
-        "link": "sample3",
+        "link": "http://timesports.cc/ch33.html",
+        },
+        {
+            "title": "BT Sport ESPN",
+            "link": "http://timesports.cc/ch34.html",
+        },
+        {
+            "title": "Sky Sports Football",
+            "link": "http://timesports.cc/ch35.html",
+        },
+        {
+            "title": "Sky Sports Arena",
+            "link": "http://timesports.cc/ch36.html",
+        },
+        {
+            "title": "Sky Sports Action",
+            "link": "http://timesports.cc/ch37.html",
+        },
+        {
+            "title": "Sky Sports Main Event",
+            "link": "http://timesports.cc/ch38.html",
         },
     ],
     "buttons2": [
         {
-          "title": "BT Sport 1 HD",
-          "link": "sample11",
+          "title": "Timesports 1 HD",
+          "link": "http://timesports.cc/ch1.php",
         }, 
         {
-          "title": "BT Sport 2 HD",
-          "link": "sample22",
+          "title": "Timesports 2 HD",
+          "link": "http://timesports.cc/ch2.php",
         },
         {
-          "title": "BT Sport 2 HD",
-          "link": "sample33",
+          "title": "Timesports 3 HD",
+          "link": "http://timesports.cc/ch3.php",
         },
     ]
   };
