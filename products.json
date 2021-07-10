@@ -1,15 +1,36 @@
-var data = {
-    "buttons": [{
-      "id": "0",
-      "title": "BT Sport 1 HD",
-      "link": "http://timesports.cc/ch31.html",
-    }, {
-      "id": "1",
-      "title": "BT Sport 2 HD",
-      "link": "http://timesports.cc/ch32.html",
-    }, {
-      "id": "2",
-      "title": "BT Sport 2 HD",
-      "link": "http://timesports.cc/ch33.html",
-    }]
+{
+    "buttons": [
+        {
+        "id": "0",
+        "title": "BT Sport 1 HD",
+        "link": "sample1",
+        }, 
+        {
+        "id": "1",
+        "title": "BT Sport 2 HD",
+        "link": "sample2",
+        }
+        {
+        "id": "2",
+        "title": "BT Sport 2 HD",
+        "link": "sample3",
+        }
+    ],
+    "schedule": [
+        {
+          "id": "0",
+          "title": "BT Sport 1 HD",
+          "link": "sample11",
+        }, 
+        {
+          "id": "1",
+          "title": "BT Sport 2 HD",
+          "link": "sample22",
+        }
+        {
+          "id": "2",
+          "title": "BT Sport 2 HD",
+          "link": "sample33",
+        }
+    ]
   };
