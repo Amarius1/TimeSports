@@ -9,7 +9,7 @@ function getprod(data) {
     $.each(data.buttons2, function(key, val) { 
       items2.push("<a btn href='"+val.link+"'>" + val.title + "</a>");
     });
-    $("#ButtonList_LiveEvents").append(items.join(""));
+    $("#ButtonList_LiveEvents").append(items2.join(""));
     
   }
 
