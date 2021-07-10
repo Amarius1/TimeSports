@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body 
+{
+  background: #BCC2C9;
+background: -webkit-linear-gradient(bottom, #BCC2C9, #FFFFFF);
+background: -moz-linear-gradient(bottom, #BCC2C9, #FFFFFF);
+background: linear-gradient(to top, #BCC2C9, #FFFFFF);
+}
+.appbar_top
+{
+  background-color: transparent;
+  padding: 10px;
+  vertical-align: middle; 
+  display: inline-block !important;
+  width: 100%;
+}
+.appbar_top > *, .activator
+{
+  vertical-align: middle !important;
+}
+.appbar_top > [btn]
+{
+  padding: 10px;
+  font-size: 15px !important;
+  color: rgba(1,1,1,0.9) !important;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.appbar_top > img 
+{
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-right: 10px;
+}
+.appbar_top .activator
+{
+  font-size: 15px !important;
+  color: rgba(1,1,1,0.9) !important;
+  margin: 0px !important;
+  vertical-align: middle !important;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.appbar_top .activator > label
+{
+  padding: 0px !important;
+  position: relative;
+  
+  color: rgba(1,1,1,0.9) !important;
+}
+.dd-menu 
+{
+  background-color: white !important;
+}
+.appbar_top .dd-menu > [btn]
+{
+  font-weight: 500 !important;
+}
+input[type="search"] {
+  padding: 10px 10px;
+  border-radius: 3px;
+  margin-left: auto !important;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(225, 228, 233) !important;
+  font-size: 14px !important;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  position: relative !important;
+  top: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+}
+input[type="search"]:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0;
+  transition: 0.3s;
+}
+input[type="search"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1;
+  transition: 0.3s;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50em;
+  background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0.3;
+  pointer-events: all;
+  transition: all 0.2s;
+}
+.appbar_top input 
+{
+  width: 400px;
+}
+.secondary_actions
+{
+  background-color: transparent !important;
+}
+.secondary_actions .announcements, .secondary_actions > [btn]
+{
+  padding: 14px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgba(1,1,1,0.4);
+  border-width: 1px !important;
+  margin: 1px 5px;
+}
+.secondary_actions .announcements [btn]:nth-child(1)
+{
+  background-color: transparent;
+  margin-top: -30px;
+  margin-bottom: -28px;
+  height: 100%;
+  padding: 15px;
+  z-index: 0;
+  position: relative;
+  margin-left: -14px;
+  padding-left: 20px;
+  border-radius: 50px 0px 0px 50px;
+  margin-right: -2.5px;
+}
+.secondary_actions [btn] [icon]
+{
+  margin-top: -3px;
+  margin-bottom: -5px;
+  margin-right: 6px;
+  margin-left: -3px;
+}
+[btn] [icon]
+{
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+.secondary_actions .announcements [btn]:nth-child(2)
+{
+  background-color: rgba(1,1,1,0.06);
+  margin-top: -30px;
+  margin-bottom: -28px;
+  height: 100%;
+  padding: 15px;
+  z-index: 0;
+  position: relative;
+  margin-right: -14px;
+  padding-right: 20px;
+  border-radius: 0px 50px 50px 0px;
+  margin-left: -2px;
+  border-left: solid;
+  border-color: rgba(1,1,1,0.4);
+  border-width: 1px !important;
+}
+.corona 
+{
+  background-color: rgba(10, 94, 204,0.1);
+  border-color: rgba(10, 94, 204,1) !important;
+  color: rgba(10, 94, 204,1);
+}
+.corona [icon]
+{
+  color: rgba(10, 94, 204,1);
+}
+.corona .waves-ripple
+{ 
+  background-color: rgba(10, 94, 204,0.1);
+}
+[container].padded
+{
+  padding: 0px 20px;
+}
+.tile_list [btn]
+{
+  border-radius: 5px;
+  padding: 20px 16px;
+  margin: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20) !important;
+  position: relative !important;
+  background-color: rgba(255,255,255,0.5);
+}
+.tile_list [btn] [icon]
+{
+  margin-left: -5px;
+  margin-right: 6px;
+  color: inherit;
+}
+#timetable
+{
+  background-color: #2D6CF5;
+  color: rgb(236, 244, 255);
+}
+#aula
+{
+  background-color: #8a2df5;
+  color: rgb(250, 236, 255);
+}
+#nova
+{
+  background-color: hsl(44, 92%, 52%);  
+  color: rgb(250, 236, 255);
+}
+
+#tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  [drawer] .label {
+
+      width: 25px !important;
+      right: -25px !important;
+
+  }
+}
+
+.drawer_bg {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999990;
+  opacity: 0.001;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+}
+
+[drawer] {
+  max-width: 320px;
+  width: 75%;
+  height: 100%;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  display: block;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  background: white;
+  position: fixed;
+  z-index: 5;
+  opacity: 0.001;
+  -webkit-box-shadow: 3px 0 16px -3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 0 16px -3px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 3px 0 16px -3px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 3px 0 16px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 0 16px -3px rgba(0, 0, 0, 0.4);
+  z-index: 9999999;
+}
+
+[drawer] .antiSelect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+[drawer] > div::-webkit-scrollbar {
+  width: 3px;
+}
+
+[drawer] > div::-webkit-scrollbar * {
+  background: transparent;
+}
+
+[drawer] > div::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+
+[drawer] > div::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+[drawer] > div::-webkit-scrollbar * {
+  background: transparent;
+}
+
+[drawer] > div::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+.overflow {
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+[drawer] .overflow .padded 
+{
+  padding: 10px !important;
+  display: inline-block;
+}
+
+
+.jBox-Tooltip .jBox-container,
+.jBox-Mouse .jBox-container {
+  border-radius: 4px !important;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.20) !important;
+  vertical-align: middle;
+  margin: auto !important;
+  display: table-cell !important;
+  justify-content:center !important;
+  align-items:center;
+}
+.jBox-Tooltip .jBox-container,
+.jBox-Mouse .jBox-container *
+{
+  vertical-align: middle !important;
+}
